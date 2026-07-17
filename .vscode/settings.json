@@ -1,3 +1,10 @@
 {
-    "java.debug.settings.onBuildFailureProceed": true
+"emeraldwalk.runonsave": {
+"commands": [
+{
+"match": ".*",
+"cmd": "${workspaceFolder}\\auto-push.bat"
+}
+]
+}
 }
